@@ -1,0 +1,112 @@
+.boton {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.boton:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+  transform: scale(1.05);
+}
+
+.boton_1 {
+  background-color: #0f16a1;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 40px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.boton_1:hover {
+  background-color: #353df3;
+  transform: scale(1.05);
+}
+
+.boton_2 {
+  background-color: #f7b308;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.boton_2:hover {
+  background-color: #c68f04;
+  transform: scale(1.05);
+}
+
+.boton_3 {
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.boton_3:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.banner {
+  height: 500px;
+  background-image: url("../assets/banner.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner-not-found {
+  height: 500px;
+  background-image: url("../assets/not-found-background.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  max-width: 600px;
+  width: 90%;
+}
+
+.boton_4 {
+  background-color: #fd1818;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.boton_4:hover {
+  background-color: #c80505;
+  transform: scale(1.05);
+}
+
+.banner_1 {
+  height: 500px;
+  background-image: url("../assets/batman1-lego-removebg-preview.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+}
